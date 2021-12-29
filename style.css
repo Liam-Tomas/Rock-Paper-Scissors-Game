@@ -9,6 +9,9 @@ body {
    
 
 }
+span {
+    color:var(--teal);
+}
 
 .game {
     font-size: 30px;
@@ -20,15 +23,18 @@ body {
     padding:40px 60px;
  
     background-color: rgb(55, 116, 230); */
-    
-
 }
 
 h1 {
     color: rgb(255, 255, 255);
     text-align: center;
 }
-
+h4 {
+    color: rgb(172, 172, 172);
+    text-align: center;
+    margin:0;
+    padding:0;
+}
 .result {
     color:rgb(255, 182, 113);
     font-weight: bold;
@@ -54,29 +60,19 @@ p {
 
 .user-left{
     position: absolute;
-    top: 5;
-    left:0;
-    font-size: 120px;
+    left: 200px;
+    font-size: 100px;
     color: rgb(214, 58, 58);
-    margin-left: 80px;
     writing-mode: vertical-rl;
-text-orientation: upright;
-
-    
+    text-orientation: upright;
 }
 
 .computer-right{
     position: absolute;
     right:0;
-    margin-right: 80px;
-    top: 50;
-    font-size: 120px;
+    right: 200px;  
+    font-size: 100px;
     color: rgb(76, 214, 58);
     writing-mode: vertical-rl;
     text-orientation: upright;   
-}
-
-#versus-computer {
-    margin-top:400px;
-    padding-bottom:400px;
 }
