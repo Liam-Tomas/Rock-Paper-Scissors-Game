@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(97, 97, 97);
+    background-color: rgb(60, 64, 85);
 }
 .main {
     display: flex;
@@ -11,14 +11,15 @@ body {
 }
 
 .game {
-    font-size: 40px;
-    color:rgb(49, 71, 71);
-   
-
-    border: 1px solid black;
+    font-size: 30px;
+    color:rgba(117, 184, 184, 0.76);
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
     border-radius: 70px;
     padding:40px 60px;
-    background-color: cornflowerblue;
+ 
+    background-color: rgb(55, 116, 230); */
     
 
 }
@@ -29,20 +30,53 @@ h1 {
 }
 
 .result {
-    color:rgb(238, 160, 88);
+    color:rgb(255, 182, 113);
     font-weight: bold;
 
 }
 
 p {
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid rgb(62, 99, 167);
+    padding: 10px 10px;
 }
 
 .resultsofGame {
-    color:cornsilk;
-    background-color: rgb(55, 116, 230);
+    color:rgb(255, 255, 255);
+    background-color: cornflowerblue;
     border: 1px solid black;
     border-radius: 70px;
-    padding: 10px 30px;
-    box-shadow: darkgrey 1px;
+    padding: 10px 70px;
+    /* box-shadow: 10px 7px 7px black; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    font-size:50px;
+}
+
+
+.user-left{
+    position: absolute;
+    top: 5;
+    left:0;
+    font-size: 120px;
+    color: rgb(214, 58, 58);
+    margin-left: 80px;
+    writing-mode: vertical-rl;
+text-orientation: upright;
+
+    
+}
+
+.computer-right{
+    position: absolute;
+    right:0;
+    margin-right: 80px;
+    top: 50;
+    font-size: 120px;
+    color: rgb(76, 214, 58);
+    writing-mode: vertical-rl;
+    text-orientation: upright;   
+}
+
+#versus-computer {
+    margin-top:400px;
+    padding-bottom:400px;
 }

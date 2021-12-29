@@ -3,7 +3,7 @@
 
 
 
-let userChoice = prompt("Do you choose rock, paper or scissors?");
+let userChoice = prompt("Do you choose rock, paper or scissors?").toLowerCase();
 let computerChoice = Math.floor(Math.random() * 3);
 if (computerChoice === 1) {
 	computerChoice = "rock";
@@ -43,10 +43,14 @@ let compare = function(choice1, choice2) {
 };    
 // compare(userChoice, computerChoice);
 
-document.getElementById("computer choice").innerHTML = (`The computer chose ${computerChoice}`)
-document.getElementById("user choice").innerHTML = (`You chose ${userChoice}`)
+document.getElementById("computer choice").innerHTML = (`Computer chose: ${computerChoice}`)
+document.getElementById("user choice").innerHTML = (`You chose: ${userChoice}`)
+document.getElementById("versus").innerHTML = (`${userChoice} vs. ${computerChoice}`)
 
-document.getElementById("the result").innerHTML = compare(userChoice, computerChoice);
+document.getElementById("the result").innerHTML = compare (userChoice, computerChoice);
+
+document.getElementById("versus-user").innerHTML = (`${userChoice}`)
+document.getElementById("versus-computer").innerHTML = (`${computerChoice}`)
 
 
 
