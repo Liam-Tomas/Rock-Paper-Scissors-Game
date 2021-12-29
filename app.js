@@ -21,31 +21,33 @@ let compare = function(choice1, choice2) {
     }
     if (choice1==="rock"){
         if (choice2==="scissors"){
-            return "Rock wins over the computer's choice, scissors, you won!!";
+            return "Rock wins, congrats!!";
         } else {
-            return "paper wins, you lose!";
+            return "Paper wins, you lose!";
         }
     }        
     if (choice1 ==="paper"){
         if (choice2 === "rock"){
-            return "Paper wins over the computer's choice, rock, you win!";
+            return "Paper wins, congrats!";
         } else {
-            return "scissors wins, you lose!";
+            return "Scissors wins, you lose!";
         }
     }
     if (choice1 === "scissors"){
         if (choice2 === "paper"){
-            return "Scissors wins over the computer's choice, paper, you won!";
+            return "Scissors wins, congrats!";
         } else {
-            return "rock wins, you lose!";
+            return "Rock wins, you lose!";
         }
     }
 };    
 // compare(userChoice, computerChoice);
 
 document.getElementById("computer choice").innerHTML = (`The computer chose ${computerChoice}`)
+document.getElementById("user choice").innerHTML = (`You chose ${userChoice}`)
 
 document.getElementById("the result").innerHTML = compare(userChoice, computerChoice);
+
 
 
 

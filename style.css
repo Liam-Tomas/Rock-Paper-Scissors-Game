@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(97, 97, 97);
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+
+}
+
+.game {
+    font-size: 40px;
+    color:rgb(49, 71, 71);
+   
+
+    border: 1px solid black;
+    border-radius: 70px;
+    padding:40px 60px;
+    background-color: cornflowerblue;
+    
+
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.result {
+    color:rgb(238, 160, 88);
+    font-weight: bold;
+
+}
+
+p {
+    border-bottom: 1px solid white;
+}
+
+.resultsofGame {
+    color:cornsilk;
+    background-color: rgb(55, 116, 230);
+    border: 1px solid black;
+    border-radius: 70px;
+    padding: 10px 30px;
+    box-shadow: darkgrey 1px;
+}
